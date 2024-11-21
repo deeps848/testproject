@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: testproject-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: testproject
+  template:
+    metadata:
+      labels:
+        app: testproject
+    spec:
+      containers:
+      - name: testproject
+        image: deepika135/testproject:latest
+        ports:
+        - containerPort: 8080
