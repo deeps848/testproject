@@ -24,7 +24,7 @@
             <configuration>
                 <archive>
                     <manifest>
-                        <mainClass>com.cdac.TestDemoClass</mainClass>
+                        <mainClass>com.cdac.TestDemo</mainClass>
                     </manifest>
                 </archive>
             </configuration>
